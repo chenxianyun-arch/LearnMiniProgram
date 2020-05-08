@@ -2,3 +2,5 @@
 <text class="title">helloword</text>
 <button size="mini">我是按钮</button>
 <image src=""></image>
+<!-- 1.知识点1 -->
+<view>知识点1</view>
