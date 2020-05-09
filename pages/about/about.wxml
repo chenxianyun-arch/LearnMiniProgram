@@ -10,3 +10,5 @@
 <view>{{counter}}</view>
 <button size="mini" bind:tap="increment">+</button>
 <button size="mini" bind:tap="decrement">-</button>
+
+<button size="mini" open-type="getUserInfo">获取授权</button>

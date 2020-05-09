@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/about/about",
     "pages/home/home",
+    "pages/about/about",
     "pages/etc/etc",
     "pages/category/category"
   ],
@@ -11,7 +11,6 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "我的小程序",
     "backgroundColor": "orange",
-    "enablePullDownRefresh": true,
     "backgroundTextStyle": "light"
   },
   "tabBar": {
@@ -19,7 +18,7 @@
     "list": [
       {
       "pagePath": "pages/about/about",
-      "text": "我的",
+      "text": "首页",
       "iconPath": "source//tabbar/home.png",
       "selectedIconPath": "source//tabbar/home_active.png"
     },
