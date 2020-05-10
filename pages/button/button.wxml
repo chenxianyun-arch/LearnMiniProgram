@@ -1,0 +1,18 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<!-- 1.大按钮 -->
+<button>大按钮</button>
+<!-- 2.小按钮 -->
+<button size="mini">小按钮</button>
+<!-- 3.type属性 -->
+<button size="mini" type="primary">anni</button>
+<button size="mini" type="default">anni</button>
+<button size="mini" type="warn">anni</button>
+
+<!-- 4.镂空效果 -->
+<button plain size="mini">镂空</button>
+<!-- 5.disable -->
+<button size="mini" loading="{{true}}">网络请求</button>
+
+<!-- 6.hover-class -->
+<button size="mini" hover-class="pressed">按钮</button>
