@@ -1,4 +1,14 @@
 <!--miniprogram/pages/about/about.wxml-->
 <text class="title">helloword</text>
-<button size="mini">我是按钮</button>
-<image src=""></image>
+<!-- <button size="mini">我是按钮</button> -->
+<!-- <image src=""></image> -->
+<view>{{name}}</view>
+
+<view wx:for="{{movies}}">{{item.id}}+++{{item.name}}</view>
+
+
+<view>{{counter}}</view>
+<button size="mini" bind:tap="increment">+</button>
+<button size="mini" bind:tap="decrement">-</button>
+
+<button size="mini" open-type="getUserInfo">获取授权</button>

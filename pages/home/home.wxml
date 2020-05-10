@@ -1,2 +1,10 @@
 <!--miniprogram/pages/home/home.wxml-->
 <text>helloword</text>
+<!--2. 点击获取用户信息 -->
+<button size="mini" 
+        open-type="getUserInfo"
+        bindgetuserinfo="handleGetUserInfo">点击获取
+</button>
+
+<!-- 展示用户的信息 -->
+<open-data ></open-data>
